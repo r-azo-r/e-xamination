@@ -1,0 +1,46 @@
+/* STANDARD TAG REDEFINITIONS */
+BODY{ color: White; font-family: Arial, Helvetica, sans-serif; font-size: 10pt; background-color: Black; margin: 0; padding: 0; }
+
+p { font-size: 10pt;  margin-bottom: 7px; margin-top: 0; }
+a{ color: #76DEFC; text-decoration: none; }
+
+form{	margin:0;}
+
+h1{ margin: 0; padding: 10px 0 0 0; font-family: "trebuchet ms",arial,tahoma,verdana,sans-serif; font-weight: normal;  color: White;  font-size: 20pt; font-weight:500 }
+
+#HEADER{	width:760px; margin-left:auto; margin-right:auto;}
+#HEADER ul{ margin: 0; padding-left: 0; height: 44px; line-height: 44px; display: block; list-style: none; background-color: #4D4D4D; background-image: url(bg_topnav.gif); background-repeat: no-repeat;  }
+#HEADER li{ display: inline; background-color: #222222;  float: right; text-align:center }
+#HEADER li a{ height: 44px; line-height: 44px; display: block; padding-left: 27px; padding-right: 27px; border-left: 1px solid Black;  float: left;     }
+#HEADER li a:hover{ background-color: #444444; text-decoration: none;}
+#HEADER .Visual{ height:230px; background-image: url(exam2.jpg);  background-repeat: no-repeat;  background-color: black;  border-top: 3px solid Black; background-position:center ;margin-top:3px;}
+
+
+#CONTENT{ width:760px; margin-left:auto; margin-right:auto; margin-top:3px;  }
+h2{ margin: 0; padding: 24px 0 7px 40px; font-family: "trebuchet ms",arial,tahoma,verdana,sans-serif; font-weight: normal; letter-spacing: .005em; color:White;  font-size: 15pt;}
+#TEXT{ padding: 35px 40px 35px 40px; border-bottom: 1px solid #484848; border-top: 1px solid #484848; background-color: #222222;}
+#TEXT p{	margin-bottom:3px ;}
+#TEXT h2{font-family:"Trebuchet MS", Arial, Helvetica, sans-serif}
+
+
+#FOOTER{	width:760px; margin-top:20px; margin-left:auto; margin-right:auto;  border-top: 4px solid #363636;  text-align: right;  padding-top: 5px;   }
+#FOOTER p{ font-size: 11px;  margin: 0;  color: #DDDDDD; }
+#FOOTER a{  color: white;  }
+#FOOTER a:hover{ color: white; text-decoration: underline; }
+
+.login{width:20%;margin-top:5px;margin-left:75%}
+.logintitle{color:#FFF;margin-top:10px}
+
+#formbox
+{
+	border:none;
+	width:58%;
+	
+}
+#qbox
+{
+	border:medium;
+	border-color:#09F;
+	width:75%;
+	
+}

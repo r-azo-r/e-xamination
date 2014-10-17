@@ -1,0 +1,56 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Sign In</title>
+<link href="file:///F|/web engg stuff/dark_theme/images/styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+<div id="HEADER">
+	<h1>e-Xamination</h1>
+    <h4>Exams are not boring anymore!</h4>
+	<ul>
+		<li><a href="contact.html">Contact Us</a></li>
+		<li><a href="about.html">About Us</a></li>
+		<li><a href="signup.jsp">Sign Up</a></li>
+		<li><a href="sign.html">Sign In</a></li>
+		<li><a href="index.jsp">Home</a></li>
+	</ul>
+	<div class="Visual"> </div>
+</div>
+<div class="login">
+
+<fieldset>
+<legend class="logintitle">LOGIN</legend>
+<form name="signin" method="post" action="login.jsp">
+<table>
+<tr>
+<td>ID</td>
+<td><input type="text" value="" name="id" id="id" /></td>
+</tr>
+<tr>
+<td>Password</td>
+<td><input type="text" value="" name="pwd" id="id" /></td>
+</tr>
+<tr>
+<td>Type</td>
+<td>
+<select name="typelist" >
+<option value="admin" >Admin</option>
+<option value="faculty">Faculty</option>
+<option value="student" selected="selected">Student</option>
+</select>
+</td>
+</tr>
+<tr><td></td></tr>
+<tr>
+<td><input type="submit" value="Sign In" /></td>
+</tr>
+</table>
+</form>
+</fieldset>
+</div>
+</body>
+</html>
